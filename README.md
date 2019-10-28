@@ -16,6 +16,7 @@ pip install requests
 ### 0.帮助
 
 ``python phpStudyBackDoor.py -h``
+
 ![帮助](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/help.png)
 
 
@@ -24,6 +25,7 @@ pip install requests
 ``python phpStudyBackDoor.py -u "http://192.168.80.128"``
 
 存在漏洞与不存在漏洞
+
 ![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/vuln.png)
 ![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/novuln.png)
 
