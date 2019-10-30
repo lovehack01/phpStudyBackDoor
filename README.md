@@ -49,3 +49,8 @@ pip install requests
 
 ``python phpStudyBackDoor.py -u "http://192.168.80.128" -f url.txt``
 ![](https://raw.githubusercontent.com/Writeup001/phpStudyBackDoor/master/image/batch.png)
+
+## 参考引用
+https://github.com/theLSA/phpstudy-backdoor-rce
+
+https://github.com/NS-Sp4ce/PHPStudy_BackDoor_Exp
